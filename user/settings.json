@@ -17,6 +17,10 @@
     "python.linting.enabled": true,
     "python.linting.pylintArgs": ["--load-plugins","pylint_odoo","-d C0114,E0401,C0115,C0116,c8101"],
     "files.insertFinalNewline": true,
-    "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
+    "window.zoomLevel": 0,
+    "editor.fontSize": 15,
+    "files.trimTrailingWhitespace": true,
+    "redhat.telemetry.enabled": true,
+    "python.defaultInterpreterPath": "/usr/bin/python3",
 }
