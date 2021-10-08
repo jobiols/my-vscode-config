@@ -12,7 +12,6 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "python.languageServer": "Microsoft",
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
     "python.linting.pylintArgs": ["--load-plugins","pylint_odoo","-d C0114,E0401,C0115,C0116,c8101"],
@@ -23,4 +22,5 @@
     "files.trimTrailingWhitespace": true,
     "redhat.telemetry.enabled": true,
     "python.defaultInterpreterPath": "/usr/bin/python3",
+    "python.languageServer": "Pylance",  
 }
