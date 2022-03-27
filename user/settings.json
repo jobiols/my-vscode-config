@@ -17,10 +17,21 @@
     "python.linting.pylintArgs": ["--load-plugins","pylint_odoo","-d C0114,E0401,C0115,C0116,c8101"],
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
-    "window.zoomLevel": 0,
     "editor.fontSize": 15,
     "files.trimTrailingWhitespace": true,
     "redhat.telemetry.enabled": true,
     "python.defaultInterpreterPath": "/usr/bin/python3",
-    "python.languageServer": "Pylance",  
+    "python.languageServer": "Pylance",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.startupEditor": "none",
+    "python.formatting.provider": "black",
+    "[python]": {
+    	"editor.formatOnSave": true,
+    },
+    "[restructuredtext]": {
+
+    },
+    "esbonio.server.entryPoint": "",
+    "esbonio.server.enabledInPyFiles": false,
+    "esbonio.server.enabled": false,
 }
